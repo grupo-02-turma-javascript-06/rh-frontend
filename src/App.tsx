@@ -1,11 +1,11 @@
-import Equipe from "./pages/equipe/Equipe";
+import './App.css'
+import ColaboradoresForm from './components/colaboradores/colaboradoresform/ColaboradoresForm'
 
 function App() {
+
   return (
     <>
-      <div>
-        <Equipe />
-      </div>
+
     </>
   );
 }
