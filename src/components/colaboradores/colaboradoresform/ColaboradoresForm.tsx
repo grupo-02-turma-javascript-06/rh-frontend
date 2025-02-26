@@ -1,4 +1,6 @@
-function ColaboradoresForm() { 
+import { Link } from "react-router-dom";
+
+function ColaboradoresForm() {
     return (
         <div className="h-auto min-h-screen flex items-center justify-center bg-[#EEEEEE]">
             <div className="w-full max-w-xl h-auto bg-[#D9D9D9] rounded-2xl shadow-lg p-16">
@@ -79,13 +81,13 @@ function ColaboradoresForm() {
                             type="button"
                             className="w-full bg-[#FFADAD] hover:bg-[#FF6467] text-red-900 font-semibold rounded-md py-2"
                         >
-                            Cancelar
+                            <Link to="/colaboradores" className="hover:underline">Cancelar</Link>
                         </button>
                         <button
                             type="submit"
                             className="w-full bg-[#C9FFB6] hover:bg-[#05DF72] text-green-900 font-semibold rounded-md py-2"
                         >
-                            Salvar
+                            <Link to="/colaboradores" className="hover:underline">Salvar</Link>
                         </button>
                     </div>
                 </form>
