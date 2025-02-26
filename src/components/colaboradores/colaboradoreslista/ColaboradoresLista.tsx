@@ -24,8 +24,8 @@ function ColaboradorLista(){
                             </div>
                         </form>
                     </div>
-                    <div>
-                        <Link to="/" className="relative px-5 py-2.5 transition-all ease-in duration-75 rounded-bl-lg rounded-tr-lg bg-[#02DFCD] font-semibold">Cadastrar Colaborador</Link>
+                    <div className="transition-transform duration-300 hover:scale-120">
+                        <Link to="/" className="relative px-5 py-2.5 transition-all ease-in duration-75 rounded-bl-lg rounded-tr-lg bg-[#02DFCD] font-semibold ">Cadastrar Colaborador</Link>
                     </div>
                 </div>
                 <div className="flex justify-center w-full my-10 ">
