@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
@@ -8,7 +8,7 @@ function Navbar() {
     return (
         <nav className="w-full bg-neutral-900 text-cyan-200">
             <div className="container mx-auto flex justify-between items-center py-6 px-6 md:px-12">
-                <Link to="/home" className="text-3xl font-bold">
+                <Link to="/" className="text-3xl font-bold">
                     <img
                         src="https://ik.imagekit.io/sdkyquy76/Fotos%20RH%20TwoGroup/logo.svg?updatedAt=1740529132461"
                         alt="Logo Group Two RH"
