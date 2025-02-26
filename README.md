@@ -3,10 +3,9 @@
 <br />
 
 <div align="center">
-    <img src="https://i.imgur.com/icgjsRQ.png" title="source: imgur.com" width="50%"/>
+    <img src="https://i.imgur.com/Ztdzcwi.png" title="source: imgur.com" width="50%"/>
 </div>
 
-`<br /><br />`
 
 ## 1. Descrição
 
@@ -31,9 +30,11 @@ A API de Gerenciamento de Colaboradores permite que os sistemas de RH cadastrem,
 
 [Layout Figma](https://www.figma.com/design/8yNuIVQn87jMr0hfVtsT21/Rh---GroupTwo?node-id=0-1&t=1YEZEjcrTSKHHg3u-1)
 
-`<img src=" https://ik.imagekit.io/ozuitdj9vd/FRONT%20RH/Home.svg?updatedAt=1740582976060" width="100%;" alt="Foto de layout"/>`
+<div align="center">
+    <img src="https://ik.imagekit.io/ozuitdj9vd/FRONT%20RH/Home.svg?updatedAt=1740582976060" alt="Foto de layout" width="50%"/>
+</div>
 
-## 5. Tecnologias utilizadas
+## 4. Tecnologias utilizadas
 
 | Item                                  | Descrição |
 | ------------------------------------- | ----------- |
@@ -44,7 +45,7 @@ A API de Gerenciamento de Colaboradores permite que os sistemas de RH cadastrem,
 
 ---
 
-## 6. Configuração e Execução
+## 5. Configuração e Execução
 
 1. Clone o repositório
 2. Instale as dependências: `yarn`
