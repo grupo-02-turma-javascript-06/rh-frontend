@@ -1,50 +1,53 @@
-# React + TypeScript + Vite
+# GroupTwo RH - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br />
 
-Currently, two official plugins are available:
+<div align="center">
+    <img src="https://i.imgur.com/Ztdzcwi.png" title="source: imgur.com" width="50%"/>
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 1. Descrição
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Este projeto consiste no desenvolvimento de uma aplicação para a gestão de colaboradores de um departamento de RH, utilizando tecnologias modernas e robustas. Ele permite o cadastro, consulta, atualização e exclusão de informações sobre os colaboradores, facilitando a organização e acessibilidade dos dados.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 2. Sobre esta API
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+A API de Gerenciamento de Colaboradores permite que os sistemas de RH cadastrem, consultem, atualizem e excluam colaboradores, além disso é possivel consultar os colaboradores para uma melhor gestão das rotinas de um RH.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### 2.1. Principais Funcionalidades
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. Cadastro de Colaboradores: Inserção de dados essenciais sobre os colaboradores.
+2. Consulta: Visualização dos colaboradores cadastrados por meio de endpoints para consultas por nome ou a visualização geral de todos os contratados.
+3. Atualização: Modificação de registros existentes no cadatro do colaborador.
+4. Exclusão: Remoção de colaboradores da listagem.
+
+---
+
+## 3. Layout da Aplicação
+
+[Layout Figma](https://www.figma.com/design/8yNuIVQn87jMr0hfVtsT21/Rh---GroupTwo?node-id=0-1&t=1YEZEjcrTSKHHg3u-1)
+
+<div align="center">
+    <img src="https://ik.imagekit.io/ozuitdj9vd/FRONT%20RH/Home.svg?updatedAt=1740582976060" alt="Foto de layout" width="50%"/>
+</div>
+
+## 4. Tecnologias utilizadas
+
+| Item                                  | Descrição |
+| ------------------------------------- | ----------- |
+| **Biblioteca**                  | React       |
+| **Linguagem de programação**  | TypeScript  |
+| **Biblioteca de Estilização** | Tailwind    |
+| **Linguagem de Marcação**     | HTML        |
+
+---
+
+## 5. Configuração e Execução
+
+1. Clone o repositório
+2. Instale as dependências: `yarn`
+3. Configure o banco de dados no arquivo `app.module.ts`
+4. Execute a aplicação: `npm run start:dev`
