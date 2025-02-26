@@ -5,6 +5,7 @@ import Home from "./pages/home/Home";
 import ColaboradorLista from "./components/colaboradores/colaboradoreslista/ColaboradoresLista";
 import Sobre from "./pages/sobre/Sobre";
 import ColaboradoresForm from "./components/colaboradores/colaboradoresform/ColaboradoresForm";
+import Equipe from "./pages/equipe/Equipe";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/colaboradores" element={<ColaboradorLista />} />
             <Route path="/colaboradores/store" element={<ColaboradoresForm />} />
             <Route path="/sobre" element={<Sobre />} />
+            <Route path="/equipe" element={<Equipe />} />
           </Routes>
         </div>
         <Footer />

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <div className="relative w-full h-screen bg-neutral-900 text-cyan-200">
@@ -29,7 +31,7 @@ function Home() {
                              bg-cyan-400 text-neutral-900 font-semibold 
                              rounded-bl-2xl rounded-se-2xl hover:bg-cyan-300 transition"
           >
-            Conheça a equipe
+          <Link to={"/equipe"}>Conheça a equipe</Link>
           </button>
         </div>
       </div>
